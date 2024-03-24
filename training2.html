@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasmine Flower</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Black */
+  }
+  .flower {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle at 50% 50%, #f8f8f8, #f0f0f0);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .petal {
+    position: absolute;
+    width: 90px;
+    height: 150px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .petal:nth-child(1) {
+    top: -8px;
+    left: 35px;
+    transform: rotate(30deg);
+  }
+  .petal:nth-child(2) {
+    top: 45px;
+    left: -20px;
+    transform: rotate(60deg);
+  }
+  .petal:nth-child(3) {
+    top: 80px;
+    left: 50px;
+    transform: rotate(90deg);
+  }
+  .petal:nth-child(4) {
+    top: 45px;
+    left: 120px;
+    transform: rotate(120deg);
+  }
+  .petal:nth-child(5) {
+    top: -8px;
+    left: 140px;
+    transform: rotate(150deg);
+  }
+  .center {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 110px;
+    height: 110px;
+    background: #f8f8f8;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .center::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* Green Sepals */
+  .sepal {
+    position: absolute;
+    width: 30px;
+    height: 45px;
+    background: #556b2f; /* Dark Olive Green */
+    border-radius: 50%;
+    transform: rotate(45deg);
+    top: 150px;
+    left: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .sepal::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 45px;
+    background: #556b2f; /* Dark Olive Green */
+    border-radius: 50%;
+    transform: rotate(90deg);
+    top: -8px;
+    left: -20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* Stem */
+  .stem {
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    background: #556b2f; /* Dark Olive Green */
+    top: 180px;
+    left: 110px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+</style>
+</head>
+<body>
+
+<div class="flower">
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="petal"></div>
+  <div class="center"></div>
+  <div class="sepal"></div>
+  <div class="stem"></div>
+</div>
+
+</body>
+</html>

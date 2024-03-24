@@ -1,0 +1,155 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Example18",
+            "request": "launch",
+            "mainClass": "Example18",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example17",
+            "request": "launch",
+            "mainClass": "Example17",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example16",
+            "request": "launch",
+            "mainClass": "Example16",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example15",
+            "request": "launch",
+            "mainClass": "Example15",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example14",
+            "request": "launch",
+            "mainClass": "Example14",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example13",
+            "request": "launch",
+            "mainClass": "Example13",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example12",
+            "request": "launch",
+            "mainClass": "Example12",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example11",
+            "request": "launch",
+            "mainClass": "Example11",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example10",
+            "request": "launch",
+            "mainClass": "Example10",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example9",
+            "request": "launch",
+            "mainClass": "Example9",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example8",
+            "request": "launch",
+            "mainClass": "Example8",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example5",
+            "request": "launch",
+            "mainClass": "Example5",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example7",
+            "request": "launch",
+            "mainClass": "Example7",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example6",
+            "request": "launch",
+            "mainClass": "Example6",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example4",
+            "request": "launch",
+            "mainClass": "Example4",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example3",
+            "request": "launch",
+            "mainClass": "Example3",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example2",
+            "request": "launch",
+            "mainClass": "Example2",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example1",
+            "request": "launch",
+            "mainClass": "Example1",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "internship_b7e15609"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
